@@ -1,0 +1,134 @@
+
+  .cards {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    transition: 0.6s;
+    border: 2px solid #000 !important ;
+    box-shadow: 5px 5px 0px #000 !important;
+   }
+  
+  .cards:hover {
+    transition: 0.6s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+  }
+  
+  .cards .img {
+    transition: 0.2s;
+    width: 100px;
+    border-radius: 50%;
+   
+    margin-bottom: 5px;
+    padding: 2px;
+  }
+  
+  .cards:hover .img {
+    transition: 0.2s;
+    outline: 4px solid  #000000;
+  }
+
+ 
+  .cards p,.cards h4{
+    color: rgb(0, 0, 0);
+  }
+ .cards .poste{
+    color:#952D98;
+    font-weight:600;
+}
+  .social-media a i{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    transition: 0.5s;
+    padding: 7px 0;
+  }
+  
+  .social-media a i:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+  }
+  
+  .social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  
+  .btn-vert{
+    background-color:#00ED64;
+    border:2px solid #000000;
+    color:#000000 !important;
+    width: 50%;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.move-button {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:#952D98;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+
+.move-button:hover {
+  background-color: #952D98;
+  color:#fff;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 0px #ffff;
+}
+
+.vert-button {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:#00ED64;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+
+.vert-button:hover {
+  background-color: #00ED64;
+  color:#fff;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 0px #ffff;
+}
+
+#search{
+  border: 2px solid #000 !important ;
+  box-shadow: 4px 4px 0px #000 !important;
+}
+
+
+.custom-pagination .page-link {
+  color: black;
+  background-color:white;
+  font-weight:bold;
+  
+}
+.custom-pagination .page-item.active .page-link {
+
+  font-weight:bold;
+  background-color:#952D98;
+  border:1px solid transparent;
+}

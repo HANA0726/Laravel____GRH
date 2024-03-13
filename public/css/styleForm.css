@@ -1,0 +1,187 @@
+input:not([type='radio']) {
+	padding: 8px 35px !important;
+	border: 2px solid #000000 !important;
+	border-radius: 25px !important;
+	background-color: transparent !important;
+	width: 280px !important;
+	height: 40px !important;
+	margin: 2px 0 !important;
+}
+.emp1 input{
+	padding: 8px 35px !important;
+	border: 2px solid #000000 !important;
+	border-radius: 25px !important;
+	background-color: transparent !important;
+	width: 100% !important;
+	height: 40px !important;
+	margin: 2px 0 !important;
+}
+.can{
+background-color:rgb(255, 255, 255) !important;
+	height: auto;
+	padding:10px 20px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px gray;
+	border: 4px solid #952D98;	
+}
+.emp{
+    background-color:rgb(255, 255, 255) !important;
+	height: auto;
+	padding:10px 20px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px gray;
+	border: 2px solid  #952D98;	
+}
+
+.card{
+    border-radius:15px ;
+      color: black !important;
+      border: 2px solid #000 !important ;
+      box-shadow: 5px 5px 0px #000 !important;
+  }
+
+
+select{
+	border: 2px solid #000000 !important ;
+	border-radius: 25px !important;
+	width: 280px !important;
+	height:40px  !important;
+	background-color:transparent !important;
+}
+input[type='file']{
+	width: 400px;
+	height:40px ;
+	background-color: transparent !important;
+    border:none !important;
+}
+
+.file{
+	position: relative;
+	left: -40px;
+	display: inline;
+}
+.inf{ 
+	color:#952D98!important; 
+    font-family: 'Georgia';
+	
+}
+.inf2{ 
+	color:#00ED64!important; 
+    font-family: 'Georgia';
+	
+}
+
+.btnt{
+    background-color:#952D98;
+    border:2px solid #ffffff;
+    color:#ffffff !important;
+    width: 50%;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+    
+}
+.btn-vert{
+    background-color:#00ED64;
+    border:2px solid #000000;
+    color:#000000 !important;
+    width: 50%;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn-vert:hover{
+	box-shadow: gray;
+	opacity: 0.8;
+}
+
+.btnt:hover{
+	box-shadow: gray;
+	opacity: 0.8;
+}
+.setting{
+	background-color:rgb(255, 255, 255) !important;
+	height: auto;
+	padding:10px 20px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px gray;
+	border: 4px solid  #000000;	
+}
+input[type='radio']{
+    accent-color: #952D98;
+}
+.setting h2{
+	font-weight: bold;
+	text-align: center;
+}
+
+.move-button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#952D98;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+	width: 50%;
+  }
+  
+  .move-button:hover {
+   
+    opacity: 0.9;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#952D98;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+	width: 50%;
+  }
+  
+  .vert-button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#00ED64;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    width: 50%;
+  }
+
+
+    .vert-button:hover {
+    opacity: 0.9;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#00ED64;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    width: 50%;
+   
+    }

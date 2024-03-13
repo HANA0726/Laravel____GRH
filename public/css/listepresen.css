@@ -1,0 +1,125 @@
+.img {
+    transition: 0.2s;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left:5px !important;
+    margin-bottom: 5px;
+    padding: 2px;
+    text-align: center;
+  
+  }
+  .card{
+    border-radius:15px ;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0px #000;
+   
+  }
+  .datepresence,.txt{
+    color:black;
+  }
+  .move-button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#952D98;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .move-button:hover {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#952D98;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+  }
+  
+  .vert-button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#00ED64;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+
+
+    .vert-button:hover {
+   
+    opacity: 0.9;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:#00ED64;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    }
+      
+
+  #dateFilter{
+   
+    background-color: #fff;
+    border: 2px solid #000 !important ;
+    box-shadow: 4px 4px 0px #000 !important;
+  }
+
+  .cards{
+    text-align: center;
+  }
+
+  #search{
+    border: 2px solid #000 !important ;
+    box-shadow: 4px 4px 0px #000 !important;
+}
+.btn-groupe{
+
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+}
+
+.custom-pagination .page-link {
+  color: black;
+  background-color:white;
+  font-weight:bold;
+  
+}
+.custom-pagination .page-item.active .page-link {
+
+  font-weight:bold;
+  background-color:#952D98;
+  border:1px solid transparent;
+}

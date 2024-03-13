@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(231, 227, 227)!important;
+}
+.btn-nav{
+    background-color:transparent;
+    border:2px solid #952D98;
+    color:#952D98 !important;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn-nav:hover{
+    background-color:#952D98;
+    border:2px solid transparent;
+    color:#ffff !important;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.con{
+    height: 300px;
+}
+#head1{
+    background-image:url(../images/image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.hero__caption{
+    text-align: right !important;
+}
+.slogan{
+    color:#952D98;
+    font-family:Roboto,  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.clic{
+    color:#00ED64;
+}
+.login{
+    border-radius: 20px;
+    background-color: white!important;
+   color:black!important;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.titleCard{
+    color:#000000;
+    font-weight: 500;
+}
+.btn-inf{
+    background-color:#00ED64;
+    border:2px solid #000000;
+    color:#000000 !important;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn-inf:hover{
+    opacity:0.4!important;
+    background-color:#00ED64;
+    border:2px solid #000000;
+    color:#000000 !important;
+    margin-left:3px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
